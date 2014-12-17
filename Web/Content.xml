@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+  <department_body>
+    <![CDATA[
+      <div class="main_btm" style="border-bottom:1px solid rgb(233, 233, 233);border-top:0px;"><!-- start main_btm -->
+	<div class="container">
+		<div class="main row">
+			<div class="col-md-6 content_left">
+				<img src={0} alt="" class="img-responsive">
+			</div>
+			<div class="col-md-6 content_right">
+				<h4 style="color:red;">{1}</h4>
+				<p class="para">{2}</p>
+			</div>
+		</div>
+	</div>
+</div>  
+  ]]>
+  </department_body>
+<footer>
+  <![CDATA[
+    <div class="container">
+      <div class="row  footer">
+        <div class="copy text-center">
+          <p class="link">
+            <span>
+              Copyright &copy; 2014.Supreme One For One All rights reserved.
+              <br/>极致141<a href="../Backstage/MenegeLogin.aspx">@</a>版权所有
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  ]]>
+</footer>
+<news_body>
+  <![CDATA[
+    <h2>{0}</h2>
+		<img src={1} alt="" class="blog_img img-responsive" style="width:750px;height:500px;"/>
+		<div class="blog_list">
+					<ul class="list-unstyled">
+					<li><i class="fa fa-calendar-o"></i><span>日期：{2}</span></li>
+				  <li><a><i class="fa fa-user"></i><span>作者：{3}</span></a></li>
+				  <li><a><i class="fa fa-eye"></i><span>访问量：{4}</span></a></li>
+				</ul>
+		</div>
+		<p class="para">{5}</p>
+  ]]>
+</news_body>
+<index_newstop>
+  <![CDATA[
+  <div  style="position:relative;" >
+  <div  style="position:absolute;z-index:1000;top:300px;left:60px;width:471px;" >
+    <h3>
+      <a  href="{10}" class="newa">{0}</a>
+    </h3>
+  </div>
+  <a href="{10}">
+    <img  src="{1}" alt="" class="col-md-6 test-1 zoomimg top2_news">
+  </a>
+</div>
+<div  style="position:relative">
+  <div style="z-index:1000;position:absolute;top:300px;left:660px;width:471px;">
+    <h3>
+      <a  href="{11}" class="newa">{2}</a>
+    </h3>
+  </div>
+  <a href="{11}">
+    <img  src="{3}" alt="" class="col-md-6 test-2 zoomimg top2_news">
+  </a>
+</div>
+<div  style="position:relative">
+  <div style="position:absolute;z-index:1000;top:580px;left:33px;width:335px;">
+    <h4>
+      <a  href="{12}" class="newa">{4}</a>
+    </h4>
+  </div>
+  <a href="{12}">
+    <img  runat="server" id="imgtop3" src="{5}" alt="" class="col-md-4 test-3 zoomimg top3_news">
+   </a>
+</div>
+<div  style="position:relative" >
+  <div style="position:absolute;z-index:1000;top:580px;left:423px;width:335px;">
+    <h4>
+      <a  href="{13}" class="newa">{6}</a>
+    </h4>
+  </div>
+  <a href="{13}">
+    <img  src="{7}" alt="" class="col-md-4 test-4 zoomimg top3_news" >
+  </a>
+</div>
+<div style="position:relative" >
+  <div style="position:absolute;z-index:1000;top:580px;left:813px;width:335px;">
+    <h4>
+      <a  href="{14}" class="newa">{8}</a>
+    </h4>
+  </div>
+  <a href="{14}">
+    <img  src="{9}" alt="" class="col-md-4 test-5 zoomimg top3_news">
+  </a>
+</div>
+
+
+  ]]>
+  
+  
+
+</index_newstop>
+
+  <head>
+    <![CDATA[
+        <!--<div class="header_bg">
+        <div class="container">
+	        <div class="row header" style="padding:0px;">
+		        <div class="logo navbar-left">
+                    <a><img src="../images/logo.jpg" class="pull-left" style="max-width:100px;max-height:100px;"/></a>
+                    <div class="pull-right" style="margin-left:10px;">
+                        <h1 class="content_right pull-top" style="margin:0px;margin-right:20px;margin-top:10px;"><a href="index.aspx" style="font-family:'Microsoft YaHei UI';font-weight:500;color:black">极致141</a></h1>
+                        <h1 class="content_right pull-bottom" style="margin:0px;margin-bottom:10px;margin-right:20px;"><a href="index.aspx" style="font-family:'Microsoft YaHei UI';font-weight:500;color:black;font-style:italic;text-transform:capitalize;font-size:medium">Supreme service one for one</a></h1>
+                    </div>
+		        </div>
+		       
+		        <div class="clearfix"></div>
+	        </div>
+        </div>
+    </div>-->
+    <div class="container">
+	    <div class="row h_menu">
+		    <nav class="navbar navbar-default navbar-left" role="navigation">
+		        <!-- Brand and toggle get grouped for better mobile display -->
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		        </div>
+		        <!-- Collect the nav links, forms, and other content for toggling -->
+		        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		          <ul class="nav navbar-nav">
+		            <li><a href="index.aspx" class="titlesize" style="font-size:medium">主页</a></li>
+		            <li><a href="allTeachers.aspx" style="font-size:medium">我要择师</a></li>
+                <li><a href="allNews.aspx" style="font-size:medium">精品美文</a></li>
+		            <li><a href="teacherRegister.aspx" style="font-size:medium">成为家教</a></li>
+                <li><a href="StudentRegister.aspx" style="font-size:medium">学生报名</a></li>
+		            <li><a href="aboutUs.aspx" style="font-size:medium">关于我们</a></li>
+		          </ul>
+		        </div><!-- /.navbar-collapse -->
+		        <!-- start soc_icons -->
+		    </nav>
+		    <div class="soc_icons navbar-right">
+			    <ul class="list-unstyled text-center">
+            <li style="color:white;padding-top:12px;font-size:16px;border:0px;">{0}  </li>
+            <li style="color:white;padding-top:12px;font-size:16px;border:0px;">{1}</li>
+            <li style="border:0px;"><a href="login.aspx" target="view_window"><i class="fa fa-user"></i></a></li>
+				    <li><a href="http://page.renren.com/601890416" target="view_window"><i class="fa fa-renren"></i></a></li>
+				    <li><a href="http://weibo.com/u/3144730605" target="view_window"><i class="fa fa-weibo"></i></a></li>
+			    </ul>	
+		    </div>
+	    </div>    
+    ]]>
+    
+  </head>
+
+  <allteacher_Node>
+    <![CDATA[
+    <div class="technology_list">
+				<div class="col-md-4 company_ad blog_list">
+                    <img id="{0}" src="{4}" alt="" class="img-responsive" runat="server"/>
+                    <br />
+                            <ul class="list-unstyled left-align">
+                            <li><i class="fa fa-tag"></i>{7}</li> 
+                            <li><i class="fa fa-building"></i>{5}</li> 
+                            <li><i class="fa fa-user"></i>{6}</li> 
+                            <!--<li><i class="fa fa-calendar-o"></i>Hua Uni</li>--> 
+                        </ul>
+					
+				</div>
+                <h4>{1}</h4>
+				<div class="col-md-8 tech_para">
+        <textarea class="textarea_para" readonly="readonly">{2}</textarea>
+					<!--<p class="para">{2}</p>-->
+                    <br /><br />
+                    <div>
+                        <div class="read_more right-align">
+					    <a href="{3}" class="auto-btn btn-1 btn-1e right-align">查看详情</a>
+				        </div>	
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+			</div>
+            <br />
+    ]]>
+  </allteacher_Node>
+  <backstage_head>
+    <![CDATA[
+        <div class="header_bg">
+        <div class="container">
+	        <div class="row header" style="padding:0px;">
+		        <div class="logo navbar-left">
+                    <img src="../images/logo.jpg" class="pull-left" style="max-width:100px;max-height:100px;"/>
+                    <div class="pull-right" style="margin-left:10px;">
+                        <h1 class="content_right pull-top" style="margin:0px;margin-right:20px;margin-top:10px;"><a href="index.html" style="font-family:'Microsoft YaHei UI';font-weight:500;color:black">极致141</a></h1>
+                        <h1 class="content_right pull-bottom" style="margin:0px;margin-bottom:10px;margin-right:20px;"><a href="index.html" style="font-family:'Microsoft YaHei UI';font-weight:500;color:black;font-style:italic;text-transform:capitalize;font-size:medium">Supreme service one for one</a></h1>
+                    </div>
+		        </div>
+		        <!--<div class="h_search navbar-right">
+                        <input type="text" class="text" value="Enter text here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter text here';}" />
+				        <input type="submit" value="search" />
+		        </div>-->
+		        <div class="clearfix"></div>
+	        </div>
+        </div>
+    </div>
+    <div class="container">
+	    <div class="row h_menu">
+		    <nav class="navbar navbar-default navbar-left" role="navigation">
+		        <!-- Brand and toggle get grouped for better mobile display -->
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		        </div>
+		        <!-- Collect the nav links, forms, and other content for toggling -->
+		        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		          <ul class="nav navbar-nav">
+		            <li><a href="../Web/index.aspx" class="titlesize" style="font-size:medium">主页</a></li>
+                <li><a href="../Backstage/teacherManagement.aspx" style="font-size:medium">教师管理</a></li>
+                <li><a href="../Backstage/ReservationManagement.aspx" style="font-size:medium">预订管理</a></li>
+                <li><a href="../Backstage/NewsMenege.aspx" style="font-size:medium">新闻管理</a></li>
+                <li><a href="../Backstage/PubArticle.aspx" style="font-size:medium">发布文章</a></li>
+		          </ul>
+		        </div><!-- /.navbar-collapse -->
+		        <!-- start soc_icons -->
+		    </nav>
+		    <div class="soc_icons navbar-right">
+			    <ul class="list-unstyled text-center">
+            <li style="color:white;padding-top:12px;font-size:16px;border:0px;">管理员</li>
+				    <li><a href="http://page.renren.com/601890416" target="view_window"><i class="fa fa-renren"></i></a></li>
+				    <li><a href="http://weibo.com/u/3144730605" target="view_window"><i class="fa fa-weibo"></i></a></li>
+			    </ul>	
+		    </div>
+	    </div>    
+    ]]>
+
+  </backstage_head>
+ <index_newtoptemp>
+  <![CDATA[
+  <div  id="newstop1" style="position:relative;" runat="server">
+                    <div  style="position:absolute;z-index:1000;top:340px;left:60px;" >
+                        <h2><a runat="server" id="labaltop1" href="#" class="newa">012理实——周鸿</a></h2>
+                    </div>
+                    <a href="#">
+                        <img runat="server" id="imgtop1" src="../images/zhouhong.jpg" alt="" class="col-md-6 test-1 zoomimg">
+                    </a>
+                </div>
+                <div id="newstop2" style="position:relative" runat="server">
+                    <div style="z-index:1000;position:absolute;top:340px;left:660px;">
+                        <h2><a runat="server" id="labaltop2" href="#" class="newa">012理实——周鸿</a></h2>
+                    </div>
+                    <a href="#">
+                        <img runat="server" id="imgtop2" src="../images/zhouhong.jpg" alt="" class="col-md-6 test-2 zoomimg">
+                    </a>
+                </div>
+                <div id="newstop3" runat="server" style="position:relative">
+                    <div style="position:absolute;z-index:1000;top:650px;left:60px;">
+                        <h3><a runat="server"  id="labaltop3" href="#" class="newa">012理实——周鸿</a></h3>
+                    </div>
+                    <a href="#">
+                        <img  runat="server" id="imgtop3" src="../images/zhouhong.jpg" alt="" class="col-md-4 test-3 zoomimg">
+                    </a>
+                </div>
+                <div id="newstop4" style="position:relative" runat="server">
+                    <div style="position:absolute;z-index:1000;top:650px;left:450px;">
+                        <h3><a  id="labaltop4" href="#" class="newa" runat="server">012理实——周鸿</a></h3>
+                    </div>
+                    <a href="#">
+                        <img  id="imgtop4" src="../images/zhouhong.jpg" alt="" class="col-md-4 test-4 zoomimg" height="295" runat="server">
+                    </a>
+                </div>
+                <div  id="newstop5" style="position:relative" runat="server">
+                    <div style="position:absolute;z-index:1000;top:650px;left:840px;">
+                        <h3><a runat="server" id="labaltop5" href="#" class="newa">012理实——周鸿</a></h3>
+                    </div>
+                    <a href="#">
+                        <img id="imgtop5" runat="server" src="../images/zhouhong.jpg" alt="" class="col-md-4 test-5 zoomimg">
+                    </a>
+                </div>
+                
+                
+     <div class="item">
+                <div class="cau_left">
+                    <img class="lazyOwl" src="../images/test.jpg" alt="Lazy Owl Image"/>
+                </div>
+                <div class="cau_left">
+                    <h4><a href="teacherDetails">廖梓伊</a></h4>
+                    <p>极致141团队女王大人<br />
+                        洞口一级爵士导师<br />
+                        </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="cau_left">
+                    <img class="lazyOwl" src="../images/test.jpg" alt="Lazy Owl Image"/>
+                </div>
+                <div class="cau_left">
+                    <h4><a href="teacherDetails">廖梓伊</a></h4>
+                    <p>极致141团队女王大人<br />
+                        洞口一级爵士导师<br />
+                        </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="cau_left">
+                    <img class="lazyOwl" src="../images/test.jpg" alt="Lazy Owl Image"/>
+                </div>
+                <div class="cau_left">
+                    <h4><a href="teacherDetails">廖梓伊</a></h4>
+                    <p>极致141团队女王大人<br />
+                        洞口一级爵士导师
+                        </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="cau_left">
+                    <img class="lazyOwl" src="../images/test.jpg" alt="Lazy Owl Image"/>
+                </div>
+                <div class="cau_left">
+                    <h4><a href="teacherDetails">廖梓伊</a></h4>
+                    <p>极致141团队女王大人<br />
+                        洞口一级爵士导师
+                        </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="cau_left">
+                    <img class="lazyOwl" src="../images/test.jpg" alt="Lazy Owl Image"/>
+                </div>
+                <div class="cau_left">
+                    <h4><a href="teacherDetails">廖梓伊</a></h4>
+                    <p>极致141团队女王大人<br />
+                        洞口一级爵士导师</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="cau_left">
+                    <img class="lazyOwl" src="../images/test.jpg" alt="Lazy Owl Image"/>
+                </div>
+                <div class="cau_left">
+                    <h4><a href="teacherDetails">廖梓伊</a></h4>
+                    <p>极致141团队女王大人<br />
+                        洞口一级爵士导师</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="cau_left">
+                    <img class="lazyOwl" src="../images/test.jpg" alt="Lazy Owl Image"/>
+                </div>
+                <div class="cau_left">
+                    <h4><a href="teacherDetails">廖梓伊</a></h4>
+                    <p>极致141团队女王大人<br />
+                        洞口一级爵士导师<br />
+                        时尚达人廖大锅</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="cau_left">
+                    <img class="lazyOwl" src="../images/test.jpg" alt="Lazy Owl Image"/>
+                </div>
+                <div class="cau_left">
+                    <h4><a href="teacherDetails">廖梓伊</a></h4>
+                    <p>极致141团队女王大人<br />
+                        洞口一级爵士导师<br />
+                        时尚达人廖大锅</p>
+                </div>
+            </div>
+
+  ]]>
+  
+ </index_newtoptemp>
+
+
+  <MenegeTutorNode>
+    <![CDATA[
+   <div class="technology_list">
+				<div class="col-md-4 company_ad blog_list">
+                    <img id="img0" src="{0}" alt="" class="img-responsive" runat="server" />
+                    <br />
+                            <ul class="list-unstyled left-align">
+                            <li><i class="fa fa-tag"></i>金牌教师</li> 
+                            <li><i class="fa fa-building"></i>{1}</li> 
+                            <li><i class="fa fa-user"></i>{2}</li> 
+                            <!--<li><i class="fa fa-calendar-o"></i>Hua Uni</li>--> 
+                        </ul>
+					
+				</div>
+                <h4>{3}</h4>
+				<div class="col-md-8 tech_para">
+					<p class="para">{4}</p>
+                    <p style="color:red" runat="server" id="checkState">{5}</p>
+                    <p style="color:red" runat="server" id="checkState">联系方式：{11}</p>
+                    <br /><br />
+                    <div>
+                        <div class="read_more right-align">
+                            <a href="MenegeUtil.aspx?pagenum={7}&&tutorid={6}&&way=deletetop" class="auto-btn btn-1 btn-1e right-align" style="{9}">主页移除</a>
+                            <a class="auto-btn btn-1 btn-1e right-align " href="SendMessege.aspx?pagenum={7}&&backpage=teacherManagement.aspx&&recid={10}&&Name={3}" >发送通知</a>
+                            <a href="teacherRecommend.aspx?tutorid={6}" class="auto-btn btn-1 btn-1e right-align" style="{8}">推荐教师</a>
+                            <a href="MenegeUtil.aspx?pagenum={7}&&tutorid={6}&&way=pass" class="auto-btn btn-1 btn-1e right-align">通过审核</a>
+					        <a href="../Web/teacherDetails.aspx?tutorid={6}" class="auto-btn btn-1 btn-1e right-align">查看详情</a>
+				        </div>	
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+			</div>
+    ]]>
+    
+  </MenegeTutorNode>
+
+  <comment>
+    <![CDATA[
+    
+     <div class="col-md-12" style="padding-top:10px;padding-bottom:10px;border-bottom:1px solid lightgrey;">
+                <div class="col-md-2" style="padding-left:0px;text-align:center;float:left;">
+                    <img src="../images/logo.jpg" style="width:50%;"/><br />
+                    <span>{0}</span>
+                </div>
+                <div class="col-md-10">
+                    <h4 style="margin:0px;color:red;margin-bottom:5px;">教学评价：{1}</h4>
+                    <p style="color:grey;">{2}</p>
+                    <h6>{3}</h6>
+                    </div>
+     </div>
+    ]]> 
+  </comment>
+  <random_comment>
+    <![CDATA[
+    <div class="all_parent" style="border-bottom:1px solid lightgrey;font-size:14px;padding-top:10px;min-height:60px;">
+                    <p>{0}</p><br/>
+                        <label runat="server" id="{1}" style="display:none">{2}</label>
+                    <div style="float:left;" id="{3}"></div>
+                    <span style="float:right;padding-bottom:10px;">{4} {5}</span>
+                </div>
+  ]]>
+  </random_comment>
+  
+  
+
+
+
+</root>
