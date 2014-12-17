@@ -13,7 +13,7 @@ using System.Data.SqlClient;
 /// </summary>
 public class BasicDao
 {
-
+    //bear
     private SqlConnection conn;
     private SqlTransaction tran;
 	public BasicDao()

@@ -9,7 +9,7 @@ using System.Net.Mail;
 /// </summary>
 public class Mail
 {
-
+	//bear
     private string smtpserver="smtp.qq.com";
     private string sendmail="756407280@qq.com";
     private string mailpsd = "DKZYK07397237699";
